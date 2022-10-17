@@ -1,7 +1,7 @@
 from Bio import SeqIO
 
 
-parsed_seq = SeqIO.parse("rosalind_gc (1).txt", "fasta")
+parsed_seq = SeqIO.parse("rosalind_gc_dataset.txt", "fasta")
 
 
 def list_of_seq_record(parsed_file):
